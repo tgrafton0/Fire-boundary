@@ -38,8 +38,6 @@ for file in files:
         if os.path.isfile(file):
                 imagePaths.append(file)
                 
-random.shuffle(imagePaths)
-print(imagePaths)
 
 for imagePath in imagePaths:
 	#using opencv, load the image, resize it to 32x32px to standardize it for the nn,
