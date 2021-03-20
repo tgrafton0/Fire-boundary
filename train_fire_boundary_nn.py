@@ -2,6 +2,8 @@
 
 Trains a simple, feed-forward neural network for binary classification
 of images, which either contain a fire boundary or do not.
+This code is heavily based on Keras tutorials and image processing tutorials
+located on pyimagesearch.com, modified for my machine.
 """
 
 # Use matplotlib for plotting loss and accuracy and saving figures to output
@@ -10,7 +12,6 @@ matplotlib.use("Agg")
 
 # Use scikitlearn for partitioning data and tensorflow/keras for modeling and training the 
 # neural network
-from sklearn.preprocessing import LabelBinarizer
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 from tensorflow.keras.models import Sequential
