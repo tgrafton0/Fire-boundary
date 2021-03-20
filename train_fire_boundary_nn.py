@@ -2,6 +2,8 @@
 
 Trains a simple, feed-forward neural network for binary classification
 of images, which either contain a fire boundary or do not.
+This code is heavily based on Keras tutorials and specifically openCV tutorials
+from pyimagesearch.com
 """
 
 # Use matplotlib for plotting loss and accuracy and saving figures to output
